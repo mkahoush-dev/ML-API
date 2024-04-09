@@ -6,7 +6,19 @@ There is a stock price predector and a Car type predictor that can be accessed v
 
 ## To access the models:
 
-Clone this repo and spin up the app using uvicorn:
+Clone this repo 
+
+```
+git clone https://github.com/mkahoush-dev/ML-API.git
+```
+
+Install the requirements
+
+```
+pip install -r requirements.txt
+```
+
+Spin up the app using uvicorn:
 
 ```
 uvicorn main:app
